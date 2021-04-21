@@ -1,0 +1,7 @@
+## Interface: 30300
+## Title: KlageGeisterPetzer
+## Author: Truggler
+## Notes: KlageGeisterPetzer
+## Version: 1.0.0
+
+Core.lua
