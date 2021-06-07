@@ -16,7 +16,7 @@ MY__FRAME:SetScript("OnEvent", function (self, event, ...)
 		
 		local name = GetUnitName(arg1)
 		
-		if name == StriLi_Bastard then return end
+		if name == Bastard then return end
 		
 		Bastard = name;
 		
