@@ -22,14 +22,14 @@ MY__FRAME:SetScript("OnEvent", function (self, event, ...)
 		
 		if(GetNumRaidMembers() > 0) then
 			if mRank >= 1 then
-				SendChatMessage(name .. " hat Klagegeister gestellt, du Bastard!!!", "RAID_WARNING");
+				SendChatMessage(name .. " hat Klagegeister gestellt, du Schlawiner!!!", "RAID_WARNING");
 			else 
-				SendChatMessage(name .. " hat Klagegeister gestellt, du Bastard!!!", "RAID");
+				SendChatMessage(name .. " hat Klagegeister gestellt, du Schlawiner!!!", "RAID");
 			end
 		elseif(GetNumGroupMembers() > 0) then
-			SendChatMessage(name .. " hat Klagegeister gestellt, du Bastard!!!", "PARTY");
+			SendChatMessage(name .. " hat Klagegeister gestellt, du Schlawiner!!!", "PARTY");
 		else
-			SendChatMessage(name .. " hat Klagegeister gestellt, du Bastard!!!", "SAY");
+			SendChatMessage(name .. " hat Klagegeister gestellt, du Schlawiner!!!", "SAY");
 		end
 	end
 
